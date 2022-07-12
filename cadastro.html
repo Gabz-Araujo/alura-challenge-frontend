@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adopet Cadastro</title>
+    <link rel="stylesheet" href="assets/styles/reset.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/forms.css" />
+  </head>
+  <body>
+    <section class="cadastro">
+      <img src="assets/img/patas.png" alt="Patas Animais" class="patas" />
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="#inicio"><img src="assets/img/casa.svg" alt="Inicio" /></a>
+          </li>
+          <li>
+            <a href="#contato"
+              ><img src="assets/img/mensagens.svg" alt="Contato"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <main class="conteudo--cadastro">
+        <h1>
+          <img
+            class="logo--azul"
+            src="assets/img/logo_azul.svg"
+            alt="Logo Adopet"
+          />
+        </h1>
+        <p>
+          Ainda não tem cadastro?
+          <br />
+
+          Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
+        </p>
+        <form action="">
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Escolha seu melhor email"
+          />
+          <label for="nome">Nome</label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Digite seu nome completo"
+          />
+          <label for="password">Senha</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Crie uma Senha"
+          />
+          <label for="confirm-password">Confirme a Senha</label>
+          <input
+            type="password"
+            name="confirm-password"
+            id="confirm-password"
+            placeholder="Repita a Senha criada acima"
+          />
+        </form>
+        <div id="botao">
+          <button>Cadastre-se</button>
+        </div>
+      </main>
+
+      <footer>
+        <p>2022 - Desenvolvido por Alura</p>
+      </footer>
+    </section>
+  </body>
+</html>

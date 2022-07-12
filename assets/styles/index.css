@@ -1,0 +1,36 @@
+.index {
+  background-image: url(/assets/img/forma2.png), url(/assets/img/vetor_1.png), url(/assets/img/vetor_2.png), url(/assets/img/ilustracao_cao_e_gato.png);
+  background-position: right center, top left, top left, bottom 2.5rem center;
+  background-repeat: no-repeat;
+  background-color: var(--primary-color);
+  font-family: var(--font-principal);
+  color: var(--white);
+}
+
+.conteudo {
+  width: 80%;
+  text-align: center;
+  margin: 10rem 0 ;
+}
+
+.conteudo a {
+  display: block;
+  text-decoration: none;
+  border-radius: .5rem;
+  background-color: var(--terciary-color);
+  padding: .5rem;
+  width: 12rem;
+  margin: 1rem auto;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.logo {
+  height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.conteudo h2 {
+  font-family: var(--font-secundaria);
+}
+

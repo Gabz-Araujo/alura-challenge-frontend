@@ -1,0 +1,85 @@
+.cadastro {
+  background-image: url(/assets/img/forma2mirror.svg),
+    url(/assets/img/vetor_1.png), url(/assets/img/vetor_2.png);
+  background-position: 0% 70%, top left, top left;
+  background-repeat: no-repeat;
+  background-color: var(--white);
+  font-family: var(--font-principal);
+  min-width: 100vw;
+}
+
+.conteudo--cadastro {
+    width: 80%;
+    text-align: center;
+    margin: 10rem auto;
+    color: var(--primary-color);
+}
+
+.conteudo--cadastro p {
+    margin-bottom: 2rem;
+}
+
+.patas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.logo--azul {
+    height: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  margin-bottom: 2rem;
+}
+
+form label {
+  color: var(--dark-grey);
+}
+
+input {
+  background: #f7f7f7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  border: none;
+  color: #bcbcbc;
+  font-size: 12px;
+  padding: 0.7rem;
+  text-align: center;
+  margin-bottom: 1.3rem;
+}
+
+button {
+    color: var(--white);
+    border: none;
+    background: var(--terciary-color);
+    border-radius: .5rem;
+    padding: .5rem;
+    width: 12rem;
+}
+
+main button:hover {
+  background: #ff9d9e;
+}
+
+#botao--login {
+ margin-bottom: 1rem; 
+}
+
+.forgot--password {
+  margin-bottom: 18rem;
+  text-decoration-line: underline;
+  color: var(--terciary-color);
+  font-size: var(--font-size-small);
+}
+
+a, a:link, a:visited {
+  color: var(--terciary-color);
+  text-decoration-line: underline;
+}

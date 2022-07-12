@@ -1,0 +1,81 @@
+.home {
+  background-image: url(/assets/img/vetor_1.png), url(/assets/img/vetor_2.png);
+  background-position: top left, top left;
+  background-repeat: no-repeat;
+  background-color: var(--white);
+  font-family: var(--font-principal);
+  min-width: 100vw;
+}
+
+.conteudo--home {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo--home h1 {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+.card--pet {
+  display: flex;
+  background-color: #f6f6f6;
+  height: 12.5rem;
+  max-width: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.img--pet {
+  height: 9.25rem;
+  margin-right: 1rem;
+  margin-left: .5rem;
+}
+
+.info--pet {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: var(--dark-grey);
+}
+
+.contato {
+  display: flex;
+  height: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.contato p {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.contato a {
+    text-decoration: none;
+    color: var(--dark-grey);
+}
+
+.nome--cao {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.dados--pet {
+    font-size: 14px;
+    color: var(--dark-grey);
+    margin-bottom: 2rem;
+}
+
+.local {
+    font-size: 12px;
+    margin-bottom: .5rem;
+}
